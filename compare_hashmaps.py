@@ -9,7 +9,7 @@ class Solution:
                 return False
             if h1[key] != h2[key]:
                 return False
-            return True
+        return True
         
 instance = Solution()
 print(instance.hashmap_equal_comparison({'a':1,'b':2,'c':3},{'a':1,'b':2,'c':3}))
